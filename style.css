@@ -6,7 +6,7 @@
 
 body{
     font-family:"Albert Sans", sans-serif;
-    height: auto;
+    
 }
 
 /* HEADER DO INDEX */
@@ -37,7 +37,8 @@ body{
 .perfis_conteider{
     margin: auto;
     width: 90%;
-    height: 120vh;
+    height: auto;
+    padding-bottom: 120px;
 }
 
 .perfil{
@@ -68,6 +69,8 @@ body{
 
 .conteiner_habilidade{
     display: flex;
+    justify-content: space-around;
+    margin-top: 14px;
 }
 
 .habilidade_1{
@@ -115,12 +118,43 @@ body{
 
 }
 
+/* PARTE CHATS 1 */
+
+.chat_conteiner{
+    margin: auto;
+    width: 90%;
+    height: auto;
+    padding-bottom: 120px;
+}
+
+.chat{
+    background-color: #D9D9D9;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.dentro_chat{
+    margin: 0px 20px 0px 20px;
+    display: flex;
+    color: black;
+}
+
+.direito{
+    margin-left: 25px;
+    max-width: 70%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
 /* FOOTER */
 
 .footer{
     position: fixed;
     bottom: 0px;
-    margin-top: 20px;
     background-color: rgb(0, 0, 0);
     height: 100px; 
     width: 100%;
