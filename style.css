@@ -11,9 +11,6 @@ body{
 
 /* HEADER DO INDEX */
 
-.header_conteiner{
-
-}
 
 .header{
     height: 150px;
@@ -48,12 +45,12 @@ body{
     width: auto;
     height: auto;
 }
-.Foto_perfil{
+.foto_perfil_home{
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
-.perfil_dentro{
+.perfil_dentro_home{
     height: 167px;
     margin: 0px 15px 0px 15px; 
     padding: 10px 0px 10px 0px;
@@ -82,6 +79,36 @@ body{
 
 .habilidade_1{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    margin: 0px 10px 0px 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    color: black;
+}
+
+.habilidade_2{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 100px;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    width: 120px;
+    color: black;
+}
+
+.habilidade_3{
+
+    display: flex;
     font-size: 10px;
     margin: 0px 10px 0px 10px;
     background-color: white;
@@ -89,38 +116,9 @@ body{
     border-radius: 100px;
     align-items: center;
     justify-content: center;
-    height: 30px;
-    width: 100px;
-    color: black;
-}
-
-.habilidade_2{
-    display: flex;
-    font-size: 9px;
-    margin: 0px 10px 0px 10px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 100px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     height: 30px;
-    width: 100px;
-    color: black;
-}
-
-.habilidade_3{
-
-    display: flex;
-    font-size: 12px;
-    margin: 0px 10px 0px 10px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 100px;
-    align-items: center;
-    justify-content: center;
-    height: 30px;
-    width: 100px;
+    width: 120px;
     color: black;
 
 }
@@ -227,8 +225,61 @@ body{
     font-size: 18px;
 }
 
+/* PERFIL */
 
 
+/* PERFIL cima */
+    .area_perfil_conteiner{
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+
+    .perfil_conteiner{
+        background-color: #4F9649;
+        color: white;
+        padding: 10px;
+        border-radius: 25px 25px 0px 0px;
+    }
+
+    .foto_perfil_conteiner{
+        width: 100%;
+        text-align: center;
+    }
+
+    .foto_perfil{
+        
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+/* PERFIL AVALIAÇÃO */
+
+    .perfil_star{
+        width: 26px;
+        height: 26px;
+    }
+
+    .perfil_ava_esquerdo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .perfil_ava{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+
+        h4{
+            font-size: 15px;
+        }
+    }
 
 /* FOOTER */
 
