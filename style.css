@@ -81,46 +81,49 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 11px;
     background-color: white;
     border: 1px solid black;
     border-radius: 100px;
     text-align: center;
-    height: 30px;
+    height: 40px;
     width: 120px;
     color: black;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
 }
 
 .habilidade_2{
     display: flex;
     align-items: center;
-    font-size: 12px;
+    font-size: 11px;
     background-color: white;
     border: 1px solid black;
     border-radius: 100px;
     justify-content: center;
     text-align: center;
-    height: 30px;
+    height: 40px;
     width: 120px;
     color: black;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
 }
 
 .habilidade_3{
 
     display: flex;
-    font-size: 12px;
+    font-size: 11px;
     background-color: white;
     border: 1px solid black;
     border-radius: 100px;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 30px;
+    height: 40px;
     width: 120px;
     color: black;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
 
 }
 
