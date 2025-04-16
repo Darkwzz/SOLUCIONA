@@ -55,7 +55,7 @@ body{
     margin: 0px 15px 0px 15px; 
     padding: 10px 0px 10px 0px;
     color: white;
-    font-size: 12px;
+    font-size: 13px;
     height: auto;
 }
 
@@ -313,7 +313,7 @@ body{
 
     .img_projetos{
         width: 80%;
-        
+        border-radius: 12px;
     }
 
 
