@@ -78,13 +78,16 @@ body{
     width: auto;
     height: auto;
 }
+
+/* PARTE DO INDEX*/
+
 .foto_perfil_home{
     width: 100px;
     height: 100px;
     border-radius: 50%;
 }
 
-/* PARTE DO INDEX*/
+
 
 
 .perfil_dentro_home{
