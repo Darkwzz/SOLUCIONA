@@ -1,6 +1,6 @@
 // document notificação//
 
-const noti_bruno = document.querySelector('.pedido_bruno')
+
 const noti_flavia = document.querySelector('.pedido_flavia')
 const noti_tiago = document.querySelector('.pedido_tiago')
 const noti_lucas = document.querySelector('.pedido_lucas')
@@ -8,11 +8,16 @@ const noti_rafael = document.querySelector('.pedido_rafael')
 
 // document serviços //
 
-const servi_bruno = document.querySelector('.servi_bruno')
+
 const servi_flavia = document.querySelector('.servi_flavia')
 const servi_lucas = document.querySelector('.servi_lucas')
 const servi_tiago = document.querySelector('.servi_tiago')
 const servi_rafael = document.querySelector('.servi_rafael')
+
+// perfil //
+
+const menu_perfil = document.querySelector('.menu_saldo')
+const button_perfil = document.querySelector('.button_perfil')
 
 
 function enviarPedido(nome){
@@ -39,7 +44,11 @@ function finalizar(nome){
     location.reload();
 }
 
+function menu_saldo(){
+    button_perfil.style.display = 'none';
+    menu_perfil.style.display = 'block';
 
+}
 
 // NOTIFICAÇÃO //
 
@@ -64,10 +73,6 @@ if(localStorage.getItem('.pedido_rafael') === 'true'){
 }
 
 // SERVIÇOS PENDENTES //
-
-if(localStorage.getItem('.servi_bruno') === 'true'){
-    servi_bruno.style.display =  'block';
-}
 
 if(localStorage.getItem('.servi_flavia') === 'true'){
     servi_flavia.style.display =  'block';

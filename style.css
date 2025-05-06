@@ -29,6 +29,39 @@ body{
 }
 
 
+.menu_perfil{
+    width: 60px;
+}
+
+.button_perfil{
+    background-color: rgba(255, 0, 0, 0);
+    border: 0px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+}
+
+.menu_saldo{
+    display: none;
+    position: absolute;
+    img{
+        width: 50px;
+        
+    }
+
+}
+
+.area_saldo{
+    width: 70px;
+    position:relative;
+    overflow-wrap: break-word;
+    background-color: black;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+
 /* PARTE DOS PERFIS */
 
 .perfis_conteider{
@@ -150,6 +183,8 @@ body{
 .dentro_chat{
     display: flex;
     color: black;
+    gap: 20px;
+
 }
 
 
@@ -365,6 +400,18 @@ body{
         width: 80%;
         border-radius: 12px;
     }
+
+/* SALDO */
+
+.saldo{    
+    background-color: #4F9649;
+    margin: auto;
+    margin-top: 25px;
+    width: 90%;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+}
 
 
 
